@@ -4,13 +4,16 @@ function testFunc() {
   return "hi"
 };
 
+
 function superbowlWin(record){
-let o=record.find(record => record.result === "W");
+let obj=record.find(record => record.result === "W");
 
-if(o === undefined)
+if(obj === undefined)
 {
-  return o
+  return obj
 }
-else{return o.year}
+
+else{return obj.year}
 
 }
+
